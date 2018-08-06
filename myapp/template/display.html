@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Display details</h1>
+<form  action ="{%  url "myapp.views.display" %}" method="POST"> {% csrf_token %}
+        Enter name:
+        <input type="text" name="name">
+<input type="submit"  value="submit">
+</form>
+
+<pre>
+    Age : {{ age }}
+
+    Dish: {{ dish }}
+
+    Phone number: {{ phno }}
+</pre>
+</body>
+
+</html>

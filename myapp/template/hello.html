@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<pre>
+    Welcome Buddy {{name}}
+    Your age is {{ age }}
+    Your Fav dish is {{ dish }}
+    Yor are likely to get mingle on {{ date }}
+</pre>
+<h4>Your Details</h4>
+<p>
+    {%  for list in details%}
+    {{ list }}
+</p>
+{%  endfor %}
+</body>
+</html>

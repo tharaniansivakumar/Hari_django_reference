@@ -1,0 +1,10 @@
+n=int(raw_input("Enter the total numbers: "))
+li=[]
+for i in range(0,n):
+    li1=[]
+    n1=int(raw_input())
+    li1.append(n1)
+    li1.append(n1*n1)
+    t=tuple(li1)
+    li.append(t)
+print(li)
